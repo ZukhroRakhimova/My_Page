@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University King Sejong_3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@400;500;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"> <img src="img/2997322.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    
+<!-----about us content---->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Sejong International Language Institute provides language programs for three languages:
+                Korean, English and Chinese. The language programs being offered are Korean language
+                 programs at six levels (beginner's, Intermediate and advanced); English as Second 
+                 language programs (English for Specific Purpose, English for Global Communication 
+                 skills in Business, and English for Global leaders); Chinese language programs (Chinese
+                  Character class and Chinese for Communication skills in Business).</p>
+                <a href="" class="hero-btn red-btn" >EXPLORE NOW</a>
+                </div>
+        <div class="about-col">
+            <img src="img/aboutus.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<!-----Footer---->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Sejong University's wooded 118,262 m2 campus is located at 98 Gunja-dong, Gwangjin-gu, 
+        in eastern <br>Seoul north of the Han river, the capital of South Korea. Located directly <br>
+        across from the Seoul Children's Grand Park, the campus consists of 23 buildings, 
+        including the<br> Sejong Private Elementary School building and the Student Center. The
+         campus is a showcase of buildings built in Korean traditional styles.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+              <p>Made with By Sejong University</p>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!------JavaScript For Loggle Menu------>
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
